@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var tableView: UITableView!
     
     
-    var myFriendsArray = ["Sayuri", "Brendan", "Jacob"]
+    var myFriendsArray = ["Sayuri", "Brendan", "Aina"]
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
