@@ -12,7 +12,7 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
     @IBOutlet weak var SecondTableView: UITableView!
     
     var countriesArray = ["Japan", "Germany", "Vietnam"]
-    
+    var inContriesArray = ["Tokyo", "Berlin", "Hanoi"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -23,7 +23,11 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
         
     let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
     let text = countriesArray[indexPath.row]
-   cell.textLabel?.text = text
+    
+ 
+cell.detailTextLabel?.text = inContriesArray[indexPath.row]
+   
+cell.textLabel?.text = text
     return cell
 
     }
