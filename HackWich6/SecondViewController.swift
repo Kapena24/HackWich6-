@@ -12,7 +12,7 @@ class SecondViewController: UIViewController, UITableViewDataSource , UITableVie
     @IBOutlet weak var SecondTableView: UITableView!
     
     var countriesArray = ["Japan", "Germany", "Vietnam"]
-    var inContriesArray = ["Tokyo", "Berlin", "Hanoi"]
+    var inContriesArray = ["⭐️⭐️⭐️⭐️⭐️", "Berlin", "Hanoi"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
